@@ -12,3 +12,7 @@ Simple python flask application that counts page visits and adds recotdb to mong
 `docker-compose up -d` 
 
 Then open in your favourite browser http://localhost:5000
+
+## TODO:
+- Add tests
+- Add CI
