@@ -2,7 +2,7 @@ version: "3"
 
 services:
   counter-app:
-    image: counter-app
+    image: vbatuev/counter-app
     container_name: counter-app
     ports:
       - "5000:5000"
