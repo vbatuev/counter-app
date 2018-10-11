@@ -29,9 +29,9 @@ def get_count():
 @app.route("/")
 def home():
     count_dict = {"date": strftime("%Y-%m-%d %H:%M:%S", gmtime())}
-        counts = get_count()
-        collection_count.insert_one(count_dict)
-        return flask.render_template('index.html', counts=counts)
+    counts = get_count()
+    collection_count.insert_one(count_dict)
+    return flask.render_template('index.html', counts=counts)
 
 
 if __name__ == "__main__":
