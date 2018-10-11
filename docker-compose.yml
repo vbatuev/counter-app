@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  counter-app:
+    image: counter-app
+    container_name: counter-app
+    ports:
+      - "5000:5000"
+    links:
+      - mongodb:mongodb
+    environment:
+      - MONGODB_URL=mongodb://mongodb:27017
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    restart: unless-stopped
