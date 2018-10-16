@@ -1,5 +1,5 @@
 # counter-app
-Simple python flask application that counts page visits and adds recotdb to mongodb database.
+Simple python flask application that counts page visits and adds records to the mongodb database.
 
 ###  To build app:
 
