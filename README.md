@@ -13,6 +13,8 @@ Simple python flask application that counts page visits and adds records to the 
 
 Then open in your favourite browser http://localhost:5000
 
+You can also find this image on [docker hub](https://hub.docker.com/r/vbatuev/counter-app/).
+
 To deploy in google cloud please check [this repo](https://github.com/vbatuev/gce-counter-app)
 
 ## TODO:
